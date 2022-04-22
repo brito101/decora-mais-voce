@@ -10,10 +10,11 @@
   --cor-background-contraste: #3f4a48;
   --cor-carrinho-count: #fff;
   --cor-fonte-contraste: #ccc;
+  --font-family: "Cinzel", serif;
 }
 
 body {
-  font-family: "Cinzel", serif;
+  font-family: var(--font-family);
   margin: 0px;
   font-size: 1.125rem;
 }

@@ -248,3 +248,9 @@
   color: #fff;
   background: var(--cor-secundaria-hover);
 }
+
+/** Imagens */
+.produto-gallery-main img {
+  height: 460px;
+  object-fit: cover;
+}

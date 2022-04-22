@@ -1,4 +1,12 @@
 <?php get_header(); ?>
+
+<style>
+  @media (max-width: 416px) {
+    main {
+      width: 330px !important;
+    }
+  }
+</style>
 <?php
 $products = [];
 if (have_posts()) {

@@ -2,8 +2,14 @@
 .products-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
-  grid-gap: 40px;
+  justify-content: start;
+  gap: 20px;
+}
+
+@media (max-width: 800px) {
+  .products-list {
+    justify-content: center;
+  }
 }
 
 .products-list h2 {
@@ -14,17 +20,24 @@
 }
 
 .product-item {
-  flex-basis: calc(33% - 40px);
+  flex-basis: calc(33% - 20px);
   max-width: 100%;
 }
 
 @media (max-width: 800px) {
   .product-item {
-    flex-basis: 50%;
+    flex-basis: calc(50% - 20px);
+    max-width: 100%;
   }
 }
 
 @media (max-width: 586px) {
+  .product-item {
+    flex-basis: 100%;
+  }
+}
+
+@media (max-width: 416px) {
   .product-item {
     flex-basis: 100%;
   }
@@ -36,6 +49,12 @@
 
 .product-info {
   grid-area: 1/1;
+}
+
+.product-info img {
+  height: 275px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .product-overlay {
@@ -95,7 +114,8 @@
 
 .pagination span.page-numbers {
   color: var(--cor-fonte);
-  background: var(--cor-background);
+  background: transparent;
+  border: 1px solid var(--cor-border);
 }
 
 .pagination .next,
@@ -148,8 +168,10 @@
 @media (max-width: 800px) {
   .filtros {
     margin-top: 40px;
+    max-width: 85%;
     grid-row: 2;
   }
+
   .filtros::before {
     content: "Filtrar Resultados";
     display: block;
@@ -217,4 +239,11 @@
 
 .woocommerce-ordering select {
   font-size: 1rem;
+  border: 1px solid var(--cor-border);
+  padding: 5px 10px;
+  font-family: var(--font-family);
+  color: var(--cor-fonte);
+  vertical-align: middle;
+  background: transparent;
+  max-width: 85%;
 }
