@@ -82,13 +82,6 @@ add_filter('woocommerce_enable_order_notes_field', '__return_false');
 // include(get_template_directory() . '/inc/checkout-customizado.php');
 
 //adicionando widget de edição de menu na interface do WP
-function register_my_menus()
-{
-  register_nav_menus(
-    array(
-      'header-menu' => __('Header Menu'),
-      'extra-menu' => __('Extra Menu')
-    )
-  );
-}
-add_action('init', 'register_my_menus');
+register_nav_menus([
+  'categorias' => 'Categorias'
+]);

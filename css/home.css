@@ -11,6 +11,7 @@
   padding: 5px 0 5px 35px;
   background-repeat: no-repeat;
   background-position: center left;
+  color: var(--cor-fonte);
 }
 
 /* .vantagens li:nth-child(1) {
@@ -66,7 +67,7 @@
   font-size: 1.5rem;
   font-weight: 400;
   margin-bottom: 20px;
-  color: var(--cor-principal);
+  color: #fff;
 }
 
 .slide-link {
@@ -119,6 +120,12 @@
 .categorias-home a {
   flex-basis: calc(50% - 5px);
   position: relative;
+}
+
+.categorias-home a img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 @media (max-width: 454px) {

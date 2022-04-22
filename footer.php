@@ -37,7 +37,7 @@
   $base_state = $countries->get_base_state();
   $complete_address = "$base_address, $base_city, $base_state";
   ?>
-  <small class="footer-copy">Rodrigo Brito Code Store &copy; <?= date('Y'); ?> - <?= $complete_address; ?></small>
+  <small class="footer-copy">Decora Mais Você &copy; <?= date('Y'); ?> - <?= $complete_address; ?></small>
 </footer>
 <?php wp_footer(); ?>
 <script src="<?= get_stylesheet_directory_uri(); ?>/js/slide.js"></script>
