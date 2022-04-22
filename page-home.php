@@ -58,8 +58,8 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
     <?php the_post(); ?>
 
     <ul class="vantagens">
-      <!-- <li>Frete Grátis</li>
-      <li>Troca Fácil</li> -->
+      <!-- <li>Frete Grátis</li>-->
+      <li>Troca Fácil</li>
       <li>Até 12x</li>
     </ul>
 

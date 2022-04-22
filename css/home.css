@@ -15,13 +15,13 @@
 
 /* .vantagens li:nth-child(1) {
   background-image: url('../img/icons/frete.svg');
+}*/
+
+.vantagens li:nth-child(1) {
+  background-image: url("../img/icons/troca.svg");
 }
 
 .vantagens li:nth-child(2) {
-  background-image: url('../img/icons/troca.svg');
-} */
-
-.vantagens li:nth-child(1) {
   background-image: url("../img/icons/card.svg");
 }
 
