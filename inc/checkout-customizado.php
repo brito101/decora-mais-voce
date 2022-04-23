@@ -3,7 +3,12 @@
 function brito_custom_checkout($fields)
 {
   // $fields['billing']['billing_first_name']['label'] = 'Primeiro Nome';
-  unset($fields['billing']['billing_phone']);
+  // unset($fields['billing']['billing_phone']);
+
+  unset($fields['billing']['billing_company']);
+  unset($fields['shipping']['shipping_company']);
+
+  // echo '<pre>';
   // print_r($fields);
 
   // $fields['billing']['billing_presente'] = [

@@ -84,8 +84,8 @@
 .woocommerce .checkout h3 {
   font-size: 1rem;
   padding: 15px;
-  background: #111;
-  color: #fff;
+  background: var(--cor-background);
+  color: var(--cor-fonte-contraste);
   font-weight: 400;
   border-radius: 4px;
   margin-bottom: 10px;
@@ -253,4 +253,15 @@
 .produto-gallery-main img {
   height: 460px;
   object-fit: cover;
+}
+
+/* Digital */
+
+.woocommerce a.button.alt {
+  font-weight: normal;
+  background-color: var(--cor-secundaria);
+}
+
+.woocommerce a.button.alt:hover {
+  background-color: var(--cor-secundaria-hover);
 }
