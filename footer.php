@@ -1,5 +1,5 @@
 <footer class="footer">
-  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="Rodrigo Brito">
+  <img src="<?= get_stylesheet_directory_uri(); ?>/img/logo.svg" alt="<?php bloginfo('name') ?>" width="250" height="250">
   <div class="container footer-info">
     <section>
       <h3>Páginas</h3>

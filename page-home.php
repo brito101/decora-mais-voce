@@ -69,7 +69,7 @@ $data['categorias'][$categoria_direita] = get_product_category_data($categoria_d
       <ul class="slide">
         <?php foreach ($data['slide'] as $product) : ?>
           <li class="slide-item">
-            <img src="<?= $product['img']; ?>" alt="<?= $product['name']; ?>">
+            <img src="<?= $product['img']; ?>" alt="<?= $product['name']; ?>" width="520" height="520">
             <div class="slide-info">
               <span class="slide-preco"><?= $product['price']; ?></span>
               <h2 class="slide-nome"><?= $product['name']; ?></h2>
