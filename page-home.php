@@ -55,7 +55,6 @@ $data['categorias'][$categoria_esquerda] = get_product_category_data($categoria_
 $data['categorias'][$categoria_direita] = get_product_category_data($categoria_direita);
 
 ?>
-</pre>
 <?php if (have_posts()) : ?>
   <?php while (have_posts()) : ?>
     <?php the_post(); ?>
