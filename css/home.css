@@ -36,6 +36,11 @@
 .slide-item img {
   flex-basis: 65%;
   max-width: 65%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  -o-object-position: center;
+  object-position: center;
+  aspect-ratio: 1;
 }
 
 .slide-info {
