@@ -4,6 +4,11 @@
 .slide {
   display: flex;
 }
+
+.slide img {
+  max-height: 450px;
+}
+
 .slide:hover {
   will-change: transform;
 }

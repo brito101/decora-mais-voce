@@ -26,7 +26,7 @@ add_action('after_setup_theme', 'brito_custom_images');
 //quantidade de anúncios por página
 function brito_loop_shop_per_page()
 {
-  return 6;
+  return 15;
 }
 add_filter('loop_shop_per_page', 'brito_loop_shop_per_page');
 
